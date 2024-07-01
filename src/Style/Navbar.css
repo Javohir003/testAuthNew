@@ -1,0 +1,53 @@
+header {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+}
+nav ul .user-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+nav ul .user-wrapper img {
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+nav ul .user-wrapper img:hover {
+  box-shadow: 0px 0px 7px black;
+}
+nav ul .user-wrapper h2 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-line-clamp: 4;
+  line-clamp: 5;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+button:hover {
+  box-shadow: 0px 0px 4px black;
+}/*# sourceMappingURL=Navbar.css.map */
